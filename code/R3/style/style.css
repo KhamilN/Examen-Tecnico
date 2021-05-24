@@ -1,0 +1,44 @@
+#article {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+img, p {
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+}
+#title {
+font-size:x-large;
+font-weight: bold;
+}
+#content {
+font-size: medium;
+}
+.none {
+    display: none; 
+}
+.flex {
+    display: flex;
+}
+.modalStyle {
+    justify-content: center;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+#openModal {
+    display: flex;
+}
+video {
+    width: 100% ;
+}
